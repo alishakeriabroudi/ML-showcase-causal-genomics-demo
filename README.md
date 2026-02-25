@@ -12,6 +12,11 @@ The synthetic generator mimics:
 
 Swap the generator with real cohorts when available.
 
+## Software DOI (Zenodo)
+
+- **Cite all versions (Concept DOI):** https://doi.org/10.5281/zenodo.18772249  
+- **This release (v0.1.1, Version DOI):** https://doi.org/10.5281/zenodo.18772250
+
 ## Quickstart
 
 ```bash
