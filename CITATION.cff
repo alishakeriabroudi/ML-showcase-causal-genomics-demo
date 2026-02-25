@@ -1,24 +1,24 @@
 cff-version: 1.2.0
-message: "If you use this code, please cite this software and/or the associated work if applicable."
+message: "If you use this code, please cite the software."
 title: "ML-showcase-causal-genomics-demo"
 authors:
   - family-names: "Abroudi"
     given-names: "Ali Shakeri"
 repository-code: "https://github.com/alishakeriabroudi/ML-showcase-causal-genomics-demo"
+doi: "10.5281/zenodo.18772249"
 license: "MIT"
-keywords:
-  - "machine learning"
-  - "genomics"
-  - "causal discovery"
-  - "dataset shift"
-  - "DeepSets"
-  - "attention"
+version: "0.1.1"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.18772250"
+    description: "Version DOI for release v0.1.1"
 preferred-citation:
   type: software
   title: "ML-showcase-causal-genomics-demo"
   authors:
     - family-names: "Abroudi"
       given-names: "Ali Shakeri"
+  version: "0.1.1"
+  doi: "10.5281/zenodo.18772250"
   url: "https://github.com/alishakeriabroudi/ML-showcase-causal-genomics-demo"
-  version: "0.1.0"
   year: 2026
