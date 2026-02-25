@@ -28,7 +28,9 @@ def _partial_corr(X: np.ndarray) -> np.ndarray:
     return pc
 
 
-def bootstrap_edges(modules: np.ndarray, n_boot: int, edge_threshold: float, seed: int) -> CausalEdges:
+def bootstrap_edges(
+    modules: np.ndarray, n_boot: int, edge_threshold: float, seed: int
+) -> CausalEdges:
     """Bootstrap partial-correlation edges across resampled rows."""
     rng = np.random.default_rng(seed)
     n, p = modules.shape
